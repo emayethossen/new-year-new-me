@@ -52,7 +52,7 @@
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    margin-right: 180px;
+    margin-right: 150px;
 }
 
 .failure-section-heading {
@@ -74,7 +74,7 @@
 .fa-solid {
     color: #16D887;
     padding: 10px;
-    font-size: 20px;
+    
 }
 
 /* Plan Section Styles */
@@ -114,10 +114,11 @@
 
 /* Gradient section Styles */
 .gradient-section {
-    background-image: url(../images/watch.png);
+    background-image: linear-gradient(to right, #0037ffad , #0037ff40), url(../images/watch.png);
     height: 300px;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
     width: 80%;
     margin: 0 auto;
 
