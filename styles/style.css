@@ -93,8 +93,6 @@
     gap: 86px;
 }
 
-.plan-list {}
-
 .plan-title {
     font-size: 25px;
     font-weight: 700;
@@ -132,13 +130,17 @@
 }
 
 /* Future Service Section Styles */
-.future-service {}
 
 .service-section-title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     padding: 130px;
+}
+
+.service-img {
+    width: 70px;
+    margin: 20px;
 }
 
 .service-container {
@@ -148,11 +150,6 @@
     margin: 0 auto;
     gap: 70px;
     margin-top: -20px;
-}
-
-.service-img {
-    width: 70px;
-    margin: 20px;
 }
 
 .services {
@@ -177,7 +174,7 @@
 .service-description {
     font-size: 20px;
     font-weight: 500;
-    color: #cbcad4;
+    color: #FFFFFF;
     margin-bottom: 30px;
 }
 
